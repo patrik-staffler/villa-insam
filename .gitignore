@@ -1,0 +1,42 @@
+typo3.tar.gz
+typo3/typo3cms
+
+typo3/typo3conf/
+!typo3/typo3conf/ext/typo3_console/
+
+typo3/typo3temp
+typo3/typo3temp/
+typo3/typo3temp/*
+
+typo3/typo3
+typo3/typo3_src
+typo3/typo3_src-10.4.18
+
+typo3/typo3conf/ENABLE_INSTALL_TOOL
+typo3/INSTALL.txt
+typo3/README.txt
+typo3/RELEASE_NOTES.txt
+typo3/.htaccess
+
+typo3/uploads
+typo3/uploads/
+typo3/uploads/*
+
+#mac related files
+._.DS_Store
+*._.DS_Store*
+.DS_Store
+*.DS_Store
+*.DS_Store*
+
+#phpstorm related files
+.idea
+stats/
+cgi-bin/
+
+typo3/typo3conf/LocalConfiguration.php
+typo3/typo3conf/local_configuration.php
+#fileadmin ignored
+typo3/fileadmin/
+#unignore template folder in fileadmin
+!typo3/fileadmin/templates/
