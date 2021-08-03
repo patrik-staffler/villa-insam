@@ -3,8 +3,11 @@ typo3.tar.gz
 typo3cms
 
 #typo3
+typo3/typo3
 typo3/typo3/
+typo3/typo3_src
 typo3/typo3_src/
+typo3/typo3_src-10.4.18
 typo3/typo3_src-10.4.18/
 typo3/INSTALL.txt
 typo3/README.txt
