@@ -1,4 +1,5 @@
 typo3.tar.gz
+typo3cms
 
 typo3/typo3conf/
 !typo3/typo3conf/ext/typo3_console/
