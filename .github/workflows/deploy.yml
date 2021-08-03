@@ -11,6 +11,6 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: sftp://p569378.mittwaldserver.info/
-          ftp-username: p569378f1
-          ftp-password: ${{ secrets.ftp_password }}
+          ftp-server: sftp://p569378.mittwaldserver.info/html/
+          ftp-username: p569378
+          ftp-password: ${{ secrets.FTP_PASSWORT }}
