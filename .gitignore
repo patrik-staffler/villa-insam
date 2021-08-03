@@ -38,6 +38,9 @@ typo3/typo3conf/LocalConfiguration.php
 typo3/typo3conf/local_configuration.php
 #fileadmin ignored
 typo3/fileadmin/
-#unignore template folder in fileadmin
-!typo3/fileadmin/templates/
-!typo3/fileadmin/.htaccess
+typo3/fileadmin/_processed_/
+typo3/fileadmin/_processed_/*
+typo3/fileadmin/_temp_/
+typo3/fileadmin/_temp_/*
+typo3/fileadmin/user_upload/
+typo3/fileadmin/user_upload/*
