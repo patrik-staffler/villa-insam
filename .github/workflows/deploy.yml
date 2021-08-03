@@ -12,6 +12,10 @@ on:
   
 # jobs of this action
 jobs:
+  write-to-console:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -la ./
   deploy:
     runs-on: ubuntu-latest
     steps:
