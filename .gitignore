@@ -40,3 +40,4 @@ typo3/typo3conf/local_configuration.php
 typo3/fileadmin/
 #unignore template folder in fileadmin
 !typo3/fileadmin/templates/
+!typo3/fileadmin/.htaccess
