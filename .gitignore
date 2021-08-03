@@ -28,6 +28,9 @@ typo3/typo3conf/LocalConfiguration.php
 typo3/typo3conf/MwCachingConfiguration.php
 typo3/typo3conf/PackageStates.php
 
+#typo3 conf ext
+typo3/typo3conf/ext/typo3_console/
+
 #typo3 typo3temp
 typo3/typo3temp/
 
