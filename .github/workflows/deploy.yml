@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Write to console
-        run: ls -la ./
+        run: ls -la ./typo3/
   deploy:
     runs-on: ubuntu-latest
     steps:
