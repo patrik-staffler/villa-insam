@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Write to console
-        run: ls -la /home/runner/work/villa-insam/villa-insam/.git
+        run: ls -la .
   deploy:
     runs-on: ubuntu-latest
     steps:
