@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GitHub dir
-        run: ls -la ./
+        run: ls -la ./.?*
   deploy:
     runs-on: ubuntu-latest
     steps:
