@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Write to console
-        run: ls -la /home/runner/
+        run: ls -la /home/runner/work/
   deploy:
     runs-on: ubuntu-latest
     steps:
