@@ -15,7 +15,10 @@ typo3/RELEASE_NOTES.txt
 
 #typo3 fileadmin
 typo3/fileadmin/
-!typo3/fileadmin/templates/
+typo3/fileadmin/_processed_/
+typo3/fileadmin/_temp_/
+typo3/fileadmin/form_definitions/
+typo3/fileadmin/user_upload/
 
 #typo3 conf
 typo3/typo3conf/
