@@ -1,7 +1,32 @@
-## TYPO3
-# Ignore several upload and file directories.
-/fileadmin/
-!/fileadmin/templates/
+#root
+typo3.tar.gz
+typo3cms
+
+#typo3
+typo3/typo3
+typo3/typo3/
+typo3/typo3_src
+typo3/typo3_src/
+typo3/typo3_src-10.4.18
+typo3/typo3_src-10.4.18/
+typo3/INSTALL.txt
+typo3/README.txt
+typo3/RELEASE_NOTES.txt
+
+#typo3 fileadmin
+typo3/fileadmin/_temp_/
+typo3/fileadmin/_processed_/
+typo3/fileadmin/user_upload/
+
+#typo3 conf
+typo3/typo3conf/autoload/
+typo3/typo3conf/l10n/
+typo3/typo3conf/sites/
+typo3/typo3conf/AdditionalConfiguration.php
+typo3/typo3conf/ENABLE_INSTALL_TOOL
+typo3/typo3conf/LocalConfiguration.php
+typo3/typo3conf/MwCachingConfiguration.php
+typo3/typo3conf/PackageStates.php
 
 # Ignore cache
 /typo3conf/
