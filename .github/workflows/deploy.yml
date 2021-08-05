@@ -12,11 +12,11 @@ on:
   
 # jobs of this action
 jobs:
-  write-to-console:
-    runs-on: ubuntu-latest
-    steps:
-      - name: GitHub dir
-        run: ls -la ./.?*
+  #write-to-console:
+  #  runs-on: ubuntu-latest
+  #  steps:
+  #    - name: GitHub dir
+  #      run: ls -la ./.?*
   deploy:
     runs-on: ubuntu-latest
     steps:
@@ -30,5 +30,5 @@ jobs:
       - name: Adding Known Hosts
         run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
       - name: Deploy with rsync
-        run: rsync -av --exclude='.gitignore' --exclude='.git/' --exclude='.github/' --exclude='.idea/' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/www/${{ secrets.SSH_USER }}/html/typo3/
+        run: rsync -av --exclude='.gitignore' --exclude='.git/' --exclude='.github/' --exclude='.idea/' ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/typo3/
 
