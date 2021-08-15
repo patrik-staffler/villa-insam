@@ -7,7 +7,8 @@ typo3/index.php
 .github
 .idea/
 
-typo3/.htaccess
+#typo3/.htaccess
+typo3/fileadmin/_processed_
 typo3/fileadmin/_temp_
 typo3/fileadmin/user_upload
 typo3/fileadmin/files
