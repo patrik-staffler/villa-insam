@@ -1,45 +1,21 @@
-#root
-/typo3.tar.gz
-/typo3cms
+# Dateien ausschließen
+typo3.tar.gz
+typo3/index.php
 
-#typo3
-/typo3/typo3
-/typo3/typo3/
-/typo3/typo3_src
-/typo3/typo3_src/
-/typo3/typo3_src-10.4.18
-/typo3/typo3_src-10.4.18/
-/typo3/INSTALL.txt
-/typo3/README.txt
-/typo3/RELEASE_NOTES.txt
+# Ordner ausschließen
+.git
+.github
+.idea/
 
-#typo3 fileadmin
-/typo3/fileadmin/_temp_/
-/typo3/fileadmin/_processed_/
-/typo3/fileadmin/user_upload/
+typo3/.htaccess
+typo3/fileadmin/_temp_
+typo3/fileadmin/user_upload
+typo3/fileadmin/files
 
-#typo3 conf
-/typo3/typo3conf/autoload/
-/typo3/typo3conf/l10n/
-/typo3/typo3conf/sites/
-/typo3/typo3conf/AdditionalConfiguration.php
-/typo3/typo3conf/ENABLE_INSTALL_TOOL
-/typo3/typo3conf/LocalConfiguration.php
-/typo3/typo3conf/MwCachingConfiguration.php
-/typo3/typo3conf/PackageStates.php
-
-# Ignore cache
-/typo3conf/
-#!/typo3conf/ext/typo3_console
-
-# Ignore system folders, you should have them symlinked.
-# If not comment out the following entries.
-/typo3
-/typo3_src
-/typo3_src-*
-/Packages
-/.htaccess
-/index.php
-
-# Ignore temp directory.
-/typo3temp/
+typo3/typo3
+typo3/typo3_src
+typo3/typo3temp
+typo3/uploads
+typo3/typo3conf/
+typo3/typo3conf/*
+!typo3/typo3conf/ext
